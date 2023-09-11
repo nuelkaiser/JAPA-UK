@@ -26,7 +26,7 @@ const Contact = () => {
 
                     <div className='flex items-center justify-between mt-5 gap-5'>
                         <div className='flex items-center gap-4'>
-                            <Phone />
+                            <Phone className='max-[425px]:scale-[.5]'/>
                             <div>
                                 <P3 className='font-bold'>PHONE</P3>
                                 <P3>03 5432 1234</P3>
@@ -34,7 +34,7 @@ const Contact = () => {
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <Telephone />
+                            <Telephone  className='max-[425px]:scale-[.5]'/>
                             <div>
                                 <P3 className='bold'>FAX</P3>
                                 <P3>03 5432 1234</P3>
@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <Phone />
+                            <Phone  className='max-[425px]:scale-[.5]'/>
                             <div>
                                 <P3 className='font-bold'>EMAIL</P3>
                                 <P3>info@marcc.com.au</P3>
