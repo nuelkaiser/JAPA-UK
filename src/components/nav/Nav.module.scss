@@ -1,0 +1,15 @@
+.nav {
+    @apply flex items-center justify-between px-6 py-7 lg:px-10 lg:py-9
+}
+
+.mobileNav {
+    @apply absolute w-full flex flex-col items-center gap-4 ease-linear duration-300 
+}
+
+.mobileClose {
+    @apply absolute top-8 right-8 text-black cursor-pointer w-6 h-6  lg:hidden 
+}
+
+.mobileLinks {
+    @apply text-base text-[#6B7280] font-medium leading-6 cursor-pointer
+}

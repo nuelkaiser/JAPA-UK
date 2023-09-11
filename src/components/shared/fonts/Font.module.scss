@@ -1,0 +1,47 @@
+.H {
+    @apply font-urban md:text-5xl
+}
+
+.H1 {
+    @apply font-urban text-5xl max-[768px]:text-4xl max-[425px]:text-3xl
+}
+
+.H2 {
+    @apply font-urban text-4xl max-[768px]:text-3xl max-[425px]:text-xl
+}
+
+.H3 {
+    @apply font-urban text-3xl max-[425px]:text-lg
+}
+
+.H4 {
+    @apply font-urban text-2xl max-[768px]:text-4xl max-[425px]:text-2xl
+}
+
+.H5 {
+    @apply font-urban text-xl
+}
+
+.H6 {
+    @apply font-urban text-lg
+}
+
+.P {
+    @apply font-urban text-lg max-[768px]:text-xl max-[425px]:text-base
+}
+
+.P2 {
+    @apply font-urban text-base
+}
+
+.P3 {
+    @apply font-urban text-sm max-[425px]:text-[10px] max-[375px]:text-[7px]  
+}
+
+.Label {
+    @apply font-urban text-xs
+}
+
+.Label1 {
+    @apply font-urban text-[10px]
+}

@@ -1,0 +1,11 @@
+.Button {
+    @apply py-[18px] px-4 border border-[#FFF] rounded-sm text-white cursor-pointer w-[211px] text-center text-[16px] 
+}
+
+.Button1 {
+    @apply py-[18px] px-4 border bg-white rounded-sm text-[#111111,#111111] cursor-pointer w-[211px] text-center text-[16px] max-[425px]:py-3 max-[425px]:px-2
+}
+
+.Button2 {
+    @apply py-[18px] px-4 border bg-black rounded-sm text-white cursor-pointer max-w-full text-center text-[16px] 
+}
